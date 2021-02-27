@@ -14,7 +14,7 @@ class Engine {
     }
 
     /**
-     * 
+     *  
      * @param {string} PROJECT_NAME name of the project, from terminal args
      */
     __BareBones(PROJECT_NAME) {
