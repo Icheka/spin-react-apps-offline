@@ -89,7 +89,7 @@ This will default to the `barebones` template and Spin Reacts Apps Offline will 
 <hr />
 <div align="center">
   
-  ## Features ✨⚡️
+  # Features ✨⚡️
  
 </div>
 <div>
@@ -110,7 +110,7 @@ This will default to the `barebones` template and Spin Reacts Apps Offline will 
 <br />
 <hr />
 <div align="center">
-  <h2 align="center">Credits and Contributors 🔥❤️️</h2>
+  <h1 align="center">Credits and Contributors 🔥❤️️</h1>
   <!-- DO NOT EDIT THIS SECTION!!! -->
    <table>
      <tr>
