@@ -8,7 +8,7 @@ It installs your `node_modules` packages and other necessary files for you witho
 <div align="center">
   <h1>🚀⚡️ SPIN REACT APPS OFFLINE ⚡️🚀</h1>
   <br />
-  <h3>Free, offline installer for React applications.</h3>
+  <h3>:gift_heart: Free, offline installer for React applications. :gift_heart:</h3>
 </div>
 <br />
 <div align="center" border="2">
@@ -85,6 +85,7 @@ This will default to the `barebones` template and Spin Reacts Apps Offline will 
 </div>
 
 <br />
+<br />
 <hr />
 <div align="center">
   
@@ -92,7 +93,7 @@ This will default to the `barebones` template and Spin Reacts Apps Offline will 
  
 </div>
 <div>
-  <font size="+2">
+  <font size="+3">
   
   1. <b>Ultra-light weight :+1: </b>
   2. <b>Globally accessible :cyclone: </b>
@@ -105,6 +106,7 @@ This will default to the `barebones` template and Spin Reacts Apps Offline will 
   </font>
 </div>
 
+<br />
 <br />
 <hr />
 <div align="center">
