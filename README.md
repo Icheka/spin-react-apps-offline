@@ -6,14 +6,14 @@ It installs your `node_modules` packages and other necessary files for you witho
 <b>`spin-react-apps-offline`</b> provides several templates for you to choose from. You can install a `barebones` React application, or install one with built-in `TypeScript` support, or one with `pre-configured routes` like Home and Authentication + <b>React-Redux, Redux, React-Router-DOM, built-in Firebase configuration,</b> etc.
 
 <div align="center">
-  <h1>⚡️ SPIN REACT APPS OFFLINE ⚡️🚀</h1>
+  <h1>🚀⚡️ SPIN REACT APPS OFFLINE ⚡️🚀</h1>
   <br />
   <h3>Free, offline installer for React applications.</h3>
 </div>
 <br />
 <div align="center" border="2">
   
-  # How To Use
+  # How To Use 📚💡
   
  </div>
  
@@ -82,6 +82,16 @@ This will default to the `barebones` template and Spin Reacts Apps Offline will 
     </tbody>
   </table>
   </div>
+</div>
+
+
+<div>
+  
+  ## Features ✨⚡️
+  
+  1. Ultra-light weight :+1:
+  
+  
 </div>
 
 
