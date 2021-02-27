@@ -21,9 +21,6 @@ class Logic {
         spinner.start();
         let message;
 
-        console.log("\nTO: ", TO)
-        console.log("\n FROM: ", FROM)
-
         _7zip.unpack(FROM, TO, (err, result) => {
             if (err) {
                 message = chalk.white.bold(`:( An error occurred \n\n:>> ${err}`);
