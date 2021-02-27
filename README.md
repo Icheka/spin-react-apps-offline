@@ -1,4 +1,4 @@
-# Spin React Apps Offline
+# Spin React Apps Offline ⚡️
 <b>`Spin-React-Apps-Offline`</b> is a very light, very fast, offline project installer for React. 
 
 It installs your `node_modules` packages and other necessary files for you without a connection to the Internet. In addition to this, it's much faster than the traditional `create-react-app`. 
@@ -6,7 +6,7 @@ It installs your `node_modules` packages and other necessary files for you witho
 <b>`spin-react-apps-offline`</b> provides several templates for you to choose from. You can install a `barebones` React application, or install one with built-in `TypeScript` support, or one with `pre-configured routes` like Home and Authentication + <b>React-Redux, Redux, React-Router-DOM, built-in Firebase configuration,</b> etc.
 
 <div align="center">
-  <h1>SPIN REACT APPS OFFLINE</h1>
+  <h1>⚡️ SPIN REACT APPS OFFLINE ⚡️🚀</h1>
   <br />
   <h3>Free, offline installer for React applications.</h3>
 </div>
@@ -17,7 +17,7 @@ It installs your `node_modules` packages and other necessary files for you witho
   
  </div>
  
-## Installation
+## Installation 💻
 Install the latest version of `spin-react-apps-offline` by following these steps:
 <b>Note:</b>Steps 1 to 4 deal with installing and confirming the Node runtime and Node Package Manager (NPM). Feel free to skip these steps if you already have both Node.js and NPM installed and up-to-date.
      
@@ -50,7 +50,7 @@ Conversely, you can install <b>Spin React Apps Offline</b> in a folder alone. It
 $ npm i spin-react-apps-offline
 ```
      
-## Usage
+## Usage 📖
 Using <b>Spin React Apps Offline</b> is a very simple and straightforward process.
 Spin Reacts Apps Offline provides the ability to install templates: pre-configured modules, code and directory structure for a wide variety of React apps.
 More templates are being added to Spin Reacts Apps Offline, but at this time the following templates are available:
@@ -87,7 +87,7 @@ This will default to the `barebones` template and Spin Reacts Apps Offline will 
 
 <hr />
 <div align="center">
-  <h2 align="center">Credits and Contributors</h2>
+  <h2 align="center">Credits and Contributors 🔥❤️️</h2>
   <!-- DO NOT EDIT THIS SECTION!!! -->
    <table>
      <tr>
