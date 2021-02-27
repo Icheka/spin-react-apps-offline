@@ -9,13 +9,13 @@ const Engine = require("./utils/engine/index");
 
 const options = yargs
                     .usage("$0 -n <project_name>")
-                    .example("spin_react -n my_cool_react_app", spinConfig.exampleText)
-                    .option("n", {
-                        alias: "name",
-                        describe: "A name for your new project",
-                        type: "string",
-                        demandOption: "A name is required for your project"
-                    })
+                    .example("spin_react my_cool_react_app", spinConfig.exampleText)
+                    // .option("n", {
+                    //     alias: "name",
+                    //     describe: "A name for your new project",
+                    //     type: "string",
+                    //     demandOption: "A name is required for your project"
+                    // })
                     .option("b", {
                         alias: "bare-bones",
                         describe: "A blank canvas with minimal directory structure and node_modules setup. Perfect balance of pre-configuration and flexibility. Great for everyone.",
@@ -31,8 +31,8 @@ const options = yargs
 const args = argv;
 let template, templates = ['b'], count = 0;
 
-if (Object.keys(args).length == 3) {
-    Engine.__BareBones(args.n);
+if (Object.keys(args).length == 2) {
+    Engine.__BareBones(args._[0]);
 } else {
     Object.keys(args).forEach(arg => {
         if (templates.includes(arg)) {
@@ -48,7 +48,7 @@ if (Object.keys(args).length == 3) {
     } else {
         switch (template) {
             case 'b':
-                Engine.__BareBones(args.n);
+                Engine.__BareBones(args._);
                 
                 break;
         
