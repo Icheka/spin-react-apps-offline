@@ -5,9 +5,9 @@ It installs your `node_modules` packages and other necessary files for you witho
 
 <b>`spin-react-apps-offline`</b> provides several templates for you to choose from. You can install a `barebones` React application, or install one with built-in `TypeScript` support, or one with `pre-configured routes` like Home and Authentication + <b>React-Redux, Redux, React-Router-DOM, built-in Firebase configuration,</b> etc.
 
-## SPIN REACT APPS OFFLINE
-
 <div align="center">
+  <h1>SPIN REACT APPS OFFLINE</h1>
+  <br />
   <h3>Free, offline installer for React applications.</h3>
 </div>
 <br />
@@ -25,30 +25,22 @@ Install the latest version of `spin-react-apps-offline` by following these steps
 2. <h3>The Node Package Manager (NPM)</h3> is automatically installed with Node.js.
 3. After the Node.js installer installs the necessary software, confirm that Node and NPM are correctly installed and working by starting a terminal application and entering 
 
-```
-node --version && npm --version
-```
+`node --version && npm --version`
 
 5. Typically, you should see two lines of version numbers. The first tells the version of Node.js you have installed. The second tells the version of NPM you have installed. If you get an error at this point, you might need to try reinstalling Node.js.
 6. <h3>Install Spin React Apps Offline:</h3> When Node and NPM have been installed, you can proceed to install <b>Spin React Apps Offline</b> by entering the following command:
 
-```
-npm install spin-react-apps-offline --global --verbose
-```
+`npm install spin-react-apps-offline --global --verbose`
 
 This command can be reduced to
 
-```
-npm i spin-react-apps-offline -g
-```
+`npm i spin-react-apps-offline -g`
 
 These commands install `Spin React Apps Offline` 'globally'. This means that Spin React Apps Offline will be accessible from any folder in your computer system, not just the folder where these commands were run. This is the recommended way to use Spin React Apps Offline.
 
 Conversely, you can install `Spin React Apps Offline` in a folder alone. It won't be accessible outside this folder:
 
-```
-npm i spin-react-apps-offline
-```
+`npm i spin-react-apps-offline`
      
 ## Usage
 Using Spin Reacts Apps Offline is a very simple and straightforward process.
