@@ -26,23 +26,29 @@ Install the latest version of `spin-react-apps-offline` by following these steps
 3. After the Node.js installer installs the necessary software, confirm that Node and NPM are correctly installed and working by starting a terminal application and entering 
 
 ```bash
-node --version && npm --version
+$ node --version && npm --version
 ```
 
 5. Typically, you should see two lines of version numbers. The first tells the version of Node.js you have installed. The second tells the version of NPM you have installed. If you get an error at this point, you might need to try reinstalling Node.js.
 6. <h3>Install Spin React Apps Offline:</h3> When Node and NPM have been installed, you can proceed to install <b>Spin React Apps Offline</b> by entering the following command:
 
-`npm install spin-react-apps-offline --global --verbose`
+```bash
+$ npm install spin-react-apps-offline --global --verbose
+```
 
 This command can be reduced to
 
-`npm i spin-react-apps-offline -g`
+```bash
+$ npm i spin-react-apps-offline -g
+```
 
 These commands install <b>Spin React Apps Offline</b> 'globally'. This means that Spin React Apps Offline will be accessible from any folder in your computer system, not just the folder where these commands were run. This is the recommended way to use Spin React Apps Offline.
 
 Conversely, you can install <b>Spin React Apps Offline</b> in a folder alone. It won't be accessible outside this folder:
 
-`npm i spin-react-apps-offline`
+```bash
+$ npm i spin-react-apps-offline
+```
      
 ## Usage
 Using <b>Spin React Apps Offline</b> is a very simple and straightforward process.
@@ -52,7 +58,9 @@ More templates are being added to Spin Reacts Apps Offline, but at this time the
 (Note: Spinning a new React application is as simple as entering:
 
 
-`spin_react your_project_name`
+```bash
+$ spin_react your_project_name
+```
 
 
 This will default to the `barebones` template and Spin Reacts Apps Offline will handle the installation for you.)
@@ -68,7 +76,7 @@ This will default to the `barebones` template and Spin Reacts Apps Offline will 
        <tr>
          <td>1</td> <td> Barebones</td> <td>A blank React application with minimal configuration, similar to what you'd get running `npx create-react-app`. Great for everybody and every kind of project.</td> 
          <td>
-         `spin_react my_new_project_name -b`
+         spin_react my_new_project_name -b
          </td>
        </tr>
     </tbody>
