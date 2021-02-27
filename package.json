@@ -1,14 +1,14 @@
 {
   "name": "spin-react-apps-offline",
   "version": "1.0.1",
-  "description": "Create new React applications OFFLINE! Spins up a robust React application with the latest NPM packages, with in-built TypeScript support, without requiring a connection to the Internet.",
+  "description": "spin-react-apps-offline is a very light, very fast, offline project installer for React. It installs your node_modules packages and other necessary files for you without a connection to the Internet. It's also much faster than the traditional create-react-app. spin-react-apps-offline provides several templates for you to choose from. You can install a barebones React application, or install one with built-in TypeScript support, or one with pre-configured routes like Home and Authentication + React-Redux, Redux, React-Router-DOM, built-in Firebase configuration, etc.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/icheka/spin-reacts-app-offline.git"
+    "url": "git+https://github.com/icheka/spin-react-apps-offline.git"
   },
   "keywords": [
     "react",
