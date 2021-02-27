@@ -25,7 +25,9 @@ Install the latest version of `spin-react-apps-offline` by following these steps
 2. <h3>The Node Package Manager (NPM)</h3> is automatically installed with Node.js.
 3. After the Node.js installer installs the necessary software, confirm that Node and NPM are correctly installed and working by starting a terminal application and entering 
 
-`node --version && npm --version`
+```bash
+node --version && npm --version
+```
 
 5. Typically, you should see two lines of version numbers. The first tells the version of Node.js you have installed. The second tells the version of NPM you have installed. If you get an error at this point, you might need to try reinstalling Node.js.
 6. <h3>Install Spin React Apps Offline:</h3> When Node and NPM have been installed, you can proceed to install <b>Spin React Apps Offline</b> by entering the following command:
@@ -78,16 +80,37 @@ This will default to the `barebones` template and Spin Reacts Apps Offline will 
 <hr />
 <div align="center">
   <h2 align="center">Credits and Contributors</h2>
-  <em width="6" height="6">
-    
-    `Author`
-    
-   <img src="https://avatars.githubusercontent.com/u/51906655?s=460&u=58d65f48f4b3bda6527ed8c420325ccfbcd3fa4d&v=4" alt="Author: Ozuru, Icheka Fortune" />
-    <div> 
-      
-   [@icheka](https://github.com/icheka)
-      
-   </div>
-    
-  </em>
+  <!-- DO NOT EDIT THIS SECTION!!! -->
+   <table>
+     <tr>
+       <td align="center">
+         <a href="https://github.com/icheka">
+           <img src="https://avatars.githubusercontent.com/u/51906655?s=460&u=58d65f48f4b3bda6527ed8c420325ccfbcd3fa4d&v=4" alt="Author: Ozuru, Icheka Fortune" width="64px" />
+           <br />
+           <sub>
+             <b>Icheka Ozuru</b>
+             <br />
+             <a href="https://github.com/icheka">@icheka</a>
+           </sub>
+         </a>
+         <br />
+         <a href="https://github.com/icheka/spin-react-apps-offline/commits?author=icheka" title="Code">
+           💻
+         </a>
+         <a href="https://github.com/icheka/spin-react-apps-offline/commits?author=icheka" title="Maintenance">
+           🚧
+         </a>
+         <a href="https://github.com/icheka/spin-react-apps-offline/commits?author=icheka" title="Documentation">
+           📖
+         </a>
+         <a href="https://github.com/icheka/spin-react-apps-offline/commits?author=icheka" title="Examples">
+           💡
+         </a>
+         <a href="https://github.com/icheka/spin-react-apps-offline/commits?author=icheka" title="Design">
+           🎨
+         </a>
+       </td>
+     </tr>
+  </table>
+  
 </div>
