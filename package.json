@@ -1,6 +1,6 @@
 {
   "name": "spin-react-apps-offline",
-  "version": "1.0.0",
+  "version": "1.0.1-0",
   "description": "Create new React applications OFFLINE! Spins up a robust React application with the latest NPM packages, with in-built TypeScript support, without requiring a connection to the Internet.",
   "main": "index.js",
   "scripts": {
