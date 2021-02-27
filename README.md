@@ -106,6 +106,20 @@ This will default to the `barebones` template and Spin Reacts Apps Offline will 
   </font>
 </div>
 
+
+<br />
+<br />
+<hr />
+<div align="center">
+  
+  # Quick Links :rocket: :minibus:
+ 
+</div>
+<span>
+  <a bgcolor="red" href="https://github.com/Icheka/spin-react-apps-offline/discussions">GitHub Discussions :mega:</a>
+</span>
+
+
 <br />
 <br />
 <hr />
