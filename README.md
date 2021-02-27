@@ -47,8 +47,10 @@ Using <b>Spin React Apps Offline</b> is a very simple and straightforward proces
 Spin Reacts Apps Offline provides the ability to install templates: pre-configured modules, code and directory structure for a wide variety of React apps.
 More templates are being added to Spin Reacts Apps Offline, but at this time the following templates are available:
 
-(Note: You can spin a new React application just by entering:
-`spin_react your_project_name`. 
+(Note: Spinning a new React application is as simple as entering:
+
+`spin_react your_project_name`.
+
 This will default to the `barebones` template and Spin Reacts Apps Offline will handle the installation for you.)
   
   <table>
