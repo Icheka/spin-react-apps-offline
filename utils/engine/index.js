@@ -6,7 +6,7 @@ const { drawLoadingScreen, drawWelcomeScreen, writeToConsole, writeProjectExecIn
 
 class Engine {
     constructor() {
-        this._barebones_dir = path.join(process.cwd(), 'src', 'barebones.7z');
+        this._barebones_dir = path.join(__dirname, 'src', 'barebones.7z');
     }
 
     startEngine() {
