@@ -85,14 +85,21 @@ This will default to the `barebones` template and Spin Reacts Apps Offline will 
 </div>
 
 
-<div>
+<hr />
+<div align="center">
   
   ## Features ✨⚡️
-  
-  1. Ultra-light weight :+1:
-  
-  
+ 
 </div>
+  
+  1. <b>Ultra-light weight :+1: </b>
+  2. <b>Globally accessible :cyclone: </b>
+  3. <b>Blazing fast ⚡️⚡️</b>
+  4. <b>Spin new projects with `spin_react <project_name>` 🔥</b>
+  5. <b>Templates save you up to 3 hours of work :cupid: :kissing_heart: </b>
+  6. <b>Automatically installs latest stable release for Node packages :yellow_heart: </b>
+  7. <b>Actively maintained :bug: :hatched_chick: </b>
+
 
 
 <hr />
