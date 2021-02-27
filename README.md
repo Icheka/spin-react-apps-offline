@@ -49,9 +49,12 @@ More templates are being added to Spin Reacts Apps Offline, but at this time the
 
 (Note: Spinning a new React application is as simple as entering:
 
-`spin_react your_project_name`.
+
+`spin_react your_project_name`
+
 
 This will default to the `barebones` template and Spin Reacts Apps Offline will handle the installation for you.)
+
   
   <table>
     <thead>
@@ -69,4 +72,22 @@ This will default to the `barebones` template and Spin Reacts Apps Offline will 
     </tbody>
   </table>
   </div>
+</div>
+
+
+<hr />
+<div align="center">
+  <h2 align="center">Credits and Contributors</h2>
+  <em width="6" height="6">
+    
+    `Author`
+    
+   <img src="https://avatars.githubusercontent.com/u/51906655?s=460&u=58d65f48f4b3bda6527ed8c420325ccfbcd3fa4d&v=4" alt="Author: Ozuru, Icheka Fortune" />
+    <div> 
+      
+   [@icheka](https://github.com/icheka)
+      
+   </div>
+    
+  </em>
 </div>
