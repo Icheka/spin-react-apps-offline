@@ -84,13 +84,15 @@ This will default to the `barebones` template and Spin Reacts Apps Offline will 
   </div>
 </div>
 
-
+<br />
 <hr />
 <div align="center">
   
   ## Features ✨⚡️
  
 </div>
+<div>
+  <font size="+2">
   
   1. <b>Ultra-light weight :+1: </b>
   2. <b>Globally accessible :cyclone: </b>
@@ -100,8 +102,10 @@ This will default to the `barebones` template and Spin Reacts Apps Offline will 
   6. <b>Automatically installs latest stable release for Node packages :yellow_heart: </b>
   7. <b>Actively maintained :bug: :hatched_chick: </b>
 
+  </font>
+</div>
 
-
+<br />
 <hr />
 <div align="center">
   <h2 align="center">Credits and Contributors 🔥❤️️</h2>
