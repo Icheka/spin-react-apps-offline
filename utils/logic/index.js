@@ -16,7 +16,7 @@ class Logic {
      * @param {*string} DIRECTORY_NAME name of the output directory after de-compression
      */
     unzip(FROM, DIRECTORY_NAME, commandsFileName) {
-        const TO = path.join(process.cwd(), DIRECTORY_NAME);
+        const TO = process.cwd() + "/" + DIRECTORY_NAME;
         const spinner = ora("Doing something useful...!");
         spinner.start();
         let message;
