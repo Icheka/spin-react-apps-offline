@@ -177,9 +177,9 @@ This will default to the `barebones` template and Spin Reacts Apps Offline will 
          <a href="https://github.com/icheka/spin-react-apps-offline/commits?author=icheka" title="Maintenance">
            🚧
          </a>
-       </td>
-       
+       </td> 
      </tr>
+     <!-- end Origho, Precious -->
   </table>
   
 </div>
