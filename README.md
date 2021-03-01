@@ -162,6 +162,23 @@ This will default to the `barebones` template and Spin Reacts Apps Offline will 
            🎨
          </a>
        </td>
+       <!-- end Icheka -->
+       <td align="center">
+         <a href="https://github.com/Origho-precious">
+           <img src="https://avatars.githubusercontent.com/u/53418429?s=460&u=72f4643959f66dbb8124d31f07a0a206606fcd83&v=4" alt="Contributor: Origho, Precious" width="64px" />
+           <br />
+           <sub>
+             <b>Origho Precious</b>
+             <br />
+             <a href="https://github.com/Origho-precious">@Origho-precious</a>
+           </sub>
+         </a>
+         <br />
+         <a href="https://github.com/icheka/spin-react-apps-offline/commits?author=icheka" title="Maintenance">
+           🚧
+         </a>
+       </td>
+       
      </tr>
   </table>
   
