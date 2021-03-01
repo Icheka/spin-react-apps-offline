@@ -123,7 +123,7 @@ This will default to the `barebones` template and Spin Reacts Apps Offline will 
 </div>
 <span>
   <a bgcolor="red" href="https://github.com/Icheka/spin-react-apps-offline/discussions">GitHub Discussions :mega:</a>
-  <a bgcolor="red" href="https://github.com/Icheka/spin-react-apps-offline/discussions">NPM Page :snowflake:</a>
+  <a bgcolor="red" href="https://npmjs.com/pacakge/spin-react-apps-offline">NPM Page :snowflake:</a>
 </span>
 
 
