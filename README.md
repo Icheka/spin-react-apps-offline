@@ -1,11 +1,14 @@
 # Spin React Apps Offline ⚡️
 <div align="center"><b> https://npmjs.com/pacakge/spin-react-apps-offline </b></div>
-<b>`Spin-React-Apps-Offline`</b> is a very light, very fast, offline project installer for React. 
+<br />
+<div align="center">
+  <b>`Spin-React-Apps-Offline`</b> is a very light, very fast, offline project installer for React. 
 
 It installs your `node_modules` packages and other necessary files for you without a connection to the Internet. In addition to this, it's much faster than the traditional `create-react-app`. 
 
 <b>`spin-react-apps-offline`</b> provides several templates for you to choose from. You can install a `barebones` React application, or install one with built-in `TypeScript` support, or one with `pre-configured routes` like Home and Authentication + <b>React-Redux, Redux, React-Router-DOM, built-in Firebase configuration,</b> etc.
 
+</div>
 <div align="center">
   <h1>🚀⚡️ SPIN REACT APPS OFFLINE ⚡️🚀</h1>
   <br />
