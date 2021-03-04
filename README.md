@@ -1,9 +1,15 @@
 # Spin React Apps Offline ⚡️
-<b>`Spin-React-Apps-Offline`</b> is a very light, very fast, offline project installer for React. 
+<div align="center"><b> https://npmjs.com/pacakge/spin-react-apps-offline </b></div>
+<br />
+<div align="center">
+  <font size="+3">
+  <b>`Spin-React-Apps-Offline`</b> is a very light, very fast, offline project installer for React. 
 
 It installs your `node_modules` packages and other necessary files for you without a connection to the Internet. In addition to this, it's so much faster than the traditional `create-react-app`. 
 
 <b>`spin-react-apps-offline`</b> provides several templates for you to choose from. You can install a `barebones` React application, or install one with built-in `TypeScript` support, or one with `pre-configured routes` like Home and Authentication + <b>React-Redux, Redux, React-Router-DOM, built-in Firebase configuration,</b> etc.
+  </font>
+</div>
 
 <div align="center">
   <h1>🚀⚡️ SPIN REACT APPS OFFLINE ⚡️🚀</h1>
@@ -117,7 +123,7 @@ This will default to the `barebones` template and Spin Reacts Apps Offline will 
 </div>
 <span>
   <a bgcolor="red" href="https://github.com/Icheka/spin-react-apps-offline/discussions">GitHub Discussions :mega:</a>
-  <a bgcolor="red" href="https://github.com/Icheka/spin-react-apps-offline/discussions">NPM Page :snowflake:</a>
+  <a bgcolor="red" href="https://npmjs.com/pacakge/spin-react-apps-offline">NPM Page :snowflake:</a>
 </span>
 
 
@@ -156,7 +162,24 @@ This will default to the `barebones` template and Spin Reacts Apps Offline will 
            🎨
          </a>
        </td>
+       <!-- end Icheka -->
+       <td align="center">
+         <a href="https://github.com/Origho-precious">
+           <img src="https://avatars.githubusercontent.com/u/53418429?s=460&u=72f4643959f66dbb8124d31f07a0a206606fcd83&v=4" alt="Contributor: Origho, Precious" width="64px" />
+           <br />
+           <sub>
+             <b>Origho Precious</b>
+             <br />
+             <a href="https://github.com/Origho-precious">@Origho-precious</a>
+           </sub>
+         </a>
+         <br />
+         <a href="https://github.com/icheka/spin-react-apps-offline/commits?author=icheka" title="Maintenance">
+           🚧
+         </a>
+       </td> 
      </tr>
+     <!-- end Origho, Precious -->
   </table>
   
 </div>
