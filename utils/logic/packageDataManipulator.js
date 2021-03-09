@@ -1,7 +1,7 @@
 import { accessSync, readFileSync, writeFileSync, constants } from "fs"
 
 
-class packageDataManipulator {
+class PackageDataManipulator {
 
 
   constructor() {
@@ -97,4 +97,4 @@ class packageDataManipulator {
     }
   }
 }
-export default packageDataManipulator
+export default PackageDataManipulator
