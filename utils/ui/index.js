@@ -3,7 +3,7 @@ const chalk = require("chalk");
 const figlet = require("figlet");
 const boxen=require("boxen");
 
-const log = console.log;
+const { log } = console;
 
 class UI {
 
@@ -70,7 +70,14 @@ class UI {
                 };
     
                 break;
-        
+            case "help":
+                config = {
+                    margin: 1,
+                    padding: 1,
+                    borderStyle: "round",
+                    borderColor: "blue"
+                };
+                break;
             default:
                 log("Invalid message type!");
                 return 1;
@@ -99,6 +106,7 @@ class UI {
         log(header);
         log(body);
     }
+
 }
 
 const ui = new UI();
