@@ -49,7 +49,6 @@ if (args._.length > 0) {
     if (args._[0].trim() == 'new') {
         // use the templating menu
         Spinner.createApplication();
-    
         return;
     }
 }

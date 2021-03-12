@@ -31,7 +31,7 @@ class Spinner {
             {
                 shorttag: "Description",
                 tag: `Description: (A fine Reacy app spun with Spin React Apps Offline)`,
-                default: "A fine Reacy app spun with Spin React Apps Offline"
+                default: "A fine React app spun with Spin React Apps Offline"
             },
             {
                 shorttag: "Repository",

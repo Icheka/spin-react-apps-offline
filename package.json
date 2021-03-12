@@ -3,7 +3,6 @@
   "version": "1.2.0",
   "description": "spin-react-apps-offline is a very light, very fast, offline project installer for React. It installs your node_modules packages and other necessary files for you without a connection to the Internet. It's also much faster than the traditional create-react-app. spin-react-apps-offline provides several templates for you to choose from. You can install a barebones React application, or install one with built-in TypeScript support, or one with pre-configured routes like Home and Authentication + React-Redux, Redux, React-Router-DOM, built-in Firebase configuration, etc.",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\""
   },
@@ -34,6 +33,7 @@
     "clear": "^0.1.0",
     "cli-select": "^1.1.2",
     "figlet": "^1.5.0",
+    "fs-extra": "^9.1.0",
     "inquirer": "^8.0.0",
     "ora": "^5.3.0",
     "os": "^0.1.1",
