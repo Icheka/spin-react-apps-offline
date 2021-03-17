@@ -1,17 +1,14 @@
-const ora = require("ora");
 const path = require("path");
 
 const Logic = require("../logic/decompressor");
-const {
-  drawLoadingScreen,
-  drawWelcomeScreen,
-  writeToConsole,
-  writeProjectExecInstructions,
-} = require("../ui/index");
+const manipulator = require("../logic/packageDataManipulator");
+const { drawLoadingScreen, drawWelcomeScreen } = require("../ui/index");
 
 const Extras = ["axios", "react-router-dom"];
 class Engine {
-  constructor() {
+  constructor(projectName) {
+    this.projectName = projectName;
+    this.projectPath = process.cwd() + "/" + this.projectName;
     this._barebones_dir = path.join(__dirname, "src", "barebones.7z");
     this._blank_dir = path.join(__dirname, "src", "blank.7z");
   }
@@ -22,27 +19,17 @@ class Engine {
 
   /**
    *
-   * @param {string} PROJECT_NAME name of the project, from terminal args
+   * Unpacks the blank template
    */
-  __BareBones(PROJECT_NAME) {
-    // return console.log("Barebones project :>>", PROJECT_NAME)
-    drawLoadingScreen();
-    Logic.unzip(this._barebones_dir, PROJECT_NAME, "barebones.commands.md");
-  }
-
-  /**
-   *
-   * @param {string} projectName name of the project from inquirer
-   */
-  __Blank(projectName) {
+  applyBlank() {
     return new Promise((resolve, reject) => {
       drawLoadingScreen();
       const blankPath = this._blank_dir;
-      const outputPath = process.cwd() + "/" + projectName;
+      const outputPath = this.projectPath;
       const message = {
-        init: `Spining: ${projectName}...`,
-        success: `Spinning: ${projectName} Completed`,
-        error: `Error Spinning ${projectName}`,
+        init: `Spining: ${this.projectName}...`,
+        success: `Spinning: ${this.projectName} Completed`,
+        error: `Error Spinning ${this.projectName}`,
       };
       Logic.unzip(blankPath, outputPath, message)
         .then(() => {
@@ -56,15 +43,14 @@ class Engine {
 
   /**
    *
-   * @param {string} projectName name of the project, from terminal args
-   * @param {string} extraName name of the project, from terminal args
+   * @param {string} extraName name of the extra package to unpack
    */
-  __Extras(projectName, extraName) {
+  applyExtras(extraName) {
     return new Promise((resolve, reject) => {
       drawLoadingScreen();
       if (Extras.includes(extraName)) {
         const extraPath = path.join(__dirname, "src", `${extraName}.7z`);
-        const outputPath = `${process.cwd()}/${projectName}/.${extraName}`;
+        const outputPath = `${this.projectPath}/.${extraName}`;
         const message = {
           init: `Unpacking: ${extraName}...`,
           success: `Unpacking: ${extraName} Completed`,
@@ -82,6 +68,21 @@ class Engine {
       }
     });
   }
+
+  /**
+   *
+   * @param {Object} projectDetails name of the project, from terminal args
+   */
+  applyAttributes(projectDetails) {
+    return new Promise((resolve, reject) => {
+      drawLoadingScreen();
+      manipulator
+        .updateProjectDetail(this.projectPath, projectDetails)
+        .then(() => {
+          resolve(true);
+        });
+    });
+  }
 }
 
-module.exports = new Engine();
+module.exports = Engine;

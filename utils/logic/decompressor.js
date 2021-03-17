@@ -1,8 +1,6 @@
 const _7zip = require("7zip-min");
 const ora = require("ora");
 const chalk = require("chalk");
-const child_process = require("child_process");
-const fs = require("fs-extra");
 
 const { writeToConsole } = require("../ui/index");
 
@@ -31,21 +29,6 @@ class Logic {
         }
       });
     });
-  }
-
-  makeNodeModulesExecutable(DIRECTORY) {
-    child_process.exec(
-      "sudo chmod -R 777 /usr/local/bin/npm",
-      (err, stdout, stderr) => {
-        if (err) console.log("");
-      }
-    );
-    child_process.exec(
-      "cd && chmod +x node_modules/.bin/react-scripts",
-      (err, stdout, stderr) => {
-        if (err) console.log("");
-      }
-    );
   }
 }
 

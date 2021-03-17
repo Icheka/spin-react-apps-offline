@@ -168,31 +168,50 @@ class PackageDataManipulator {
    * @param {*string} packageLockPath path to npm package-lock.json file
    * @param {*Object} projectData data about the new project
    */
-  updateProjectDetail = (packageJsonPath, packageLockPath, projectData) => {
-    this.flag = true;
-    if (
-      this.verifyPathExists(packageJsonPath) &&
-      this.verifyPathExists(packageLockPath)
-    ) {
-      try {
-        //unpack files content in javascript object and save to const
-        const [packageJson, packageLock] = [
-          JSON.parse(this.openFile(packageJsonPath)),
-          JSON.parse(this.openFile(packageLockPath)),
-        ];
-        //overide the existing data with new supplied values
-        const updatedProjectData = { ...packageJson, ...projectData };
+  updateProjectDetail = (projectFolder, projectData) => {
+    return new Promise((resolve, reject) => {
+      this.flag = true;
+      let packageJsonPath = `${projectFolder}/package.json`;
+      let packageLockPath = `${projectFolder}/package-lock.json`;
+      let nodePackageLockPath = `${projectFolder}/node_modules/.package-lock.json`;
+      if (
+        this.verifyPathExists(packageJsonPath) &&
+        this.verifyPathExists(packageLockPath)
+      ) {
+        try {
+          //unpack files content in javascript object and save to const
+          const [packageJson, packageLock, nodePackageLock] = [
+            JSON.parse(this.openFile(packageJsonPath)),
+            JSON.parse(this.openFile(packageLockPath)),
+            JSON.parse(this.openFile(nodePackageLockPath)),
+          ];
+          //overide the existing data with new supplied values
+          const updatedProjectData = { ...packageJson, ...projectData };
+          const updatedProjectLockData = { ...packageLock, ...projectData };
+          const updatedNodeProjectLockData = {
+            ...nodePackageLock,
+            ...projectData,
+          };
+          writeFileSync(
+            packageJsonPath,
+            JSON.stringify(updatedProjectData, null, 2)
+          );
+          writeFileSync(
+            packageLockPath,
+            JSON.stringify(updatedProjectLockData, null, 2)
+          );
 
-        writeFileSync(
-          updatedProjectData,
-          JSON.stringify(updatedProjectData, null, 2)
-        );
-        return this.flag;
-      } catch (error) {
-        console.error(error);
-        return this.flag;
+          writeFileSync(
+            nodePackageLockPath,
+            JSON.stringify(updatedNodeProjectLockData, null, 2)
+          );
+          return resolve(this.flag);
+        } catch (error) {
+          console.error(error);
+          return reject(this.flag);
+        }
       }
-    }
+    });
   };
 }
-module.exports = PackageDataManipulator;
+module.exports = new PackageDataManipulator();
