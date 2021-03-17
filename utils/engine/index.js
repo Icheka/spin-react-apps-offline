@@ -71,7 +71,7 @@ class Engine {
 
   /**
    *
-   * @param {Object} projectDetails name of the project, from terminal args
+   * @param {Object} projectDetails Details of the project, from prompt
    */
   applyAttributes(projectDetails) {
     return new Promise((resolve, reject) => {
